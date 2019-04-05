@@ -12,6 +12,5 @@
 	http-proxy-middeware
 # webpack 
 	 babel-plugin-import  [按需加载]
-	 generator-react-webpack [生成目录文件]
 # 依赖包
 	sass-loader node-loader [sass解析css]

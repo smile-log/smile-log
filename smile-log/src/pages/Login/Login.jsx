@@ -13,7 +13,7 @@ export class Login extends Component {
          }else{
             message.success('登陆成功3s后自动跳转',3,()=>{
                // console.log(this)
-               this.props.history.push("/home")
+               this.props.history.push("/home/goods")
             })
         }
       })

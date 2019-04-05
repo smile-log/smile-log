@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "babel-plugin-import": "^1.11.0",
-    "generator-react-webpack": "^3.3.4",
     "node-loader": "^0.6.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

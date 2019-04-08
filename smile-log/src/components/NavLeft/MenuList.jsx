@@ -40,8 +40,8 @@ const Menus=[
      path:'/home/goods',
      children:[
        {
-         title:'商品列表',
-         path:'/home/goods/list'
+         title:'商品未知',
+         path:'/home/goods/xx'
        },
        {
         title:'未知元素',

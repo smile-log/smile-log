@@ -8,7 +8,6 @@ export class Login extends Component {
       this.props.form.validateFields((err, values) => {
         if (err) {
                message.error('用户信息错误 请重试', 1, ()=>{
-               console.log("关闭了")
             })
          }else{
             message.success('登陆成功3s后自动跳转',3,()=>{
@@ -40,8 +39,7 @@ export class Login extends Component {
                   "password",{
                      rules:[{required:true,message:'密码不能为空'},
                       {min:3,message:'不能少于3位'},
-                      {max:10,message:'不能大于10位'},
-                      {pattern:/-?[1-9]\d*/,message:'必须是整数'},
+                      {max:10,message:'不能大于10位'}
                     ]
                   }
                )(

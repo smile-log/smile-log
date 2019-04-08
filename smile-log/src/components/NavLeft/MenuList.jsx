@@ -1,35 +1,35 @@
 const Menus=[
    {
      title:'首页',
-     path:'/admin/home'
+     path:'/home'
    },
    {
      title:'数据统计',
-     path:'/admin/data'
+     path:'/home/data'
    },
    {
      title:'用户管理',
-     path:'/admin/user',
+     path:'/home/user',
      children:[
        {
          title:'商品列表',
-         path:'/admin/goods/list'
+         path:'/home/goods/list'
        },
        {
          title:'商品添加',
-         path:'/admin/goods/add'
+         path:'/home/goods/add'
        },
        {
          title:'商品修改',
-         path:'/admin/goods/update',
+         path:'/home/goods/update',
          children:[
            {
              title:'三级测试1',
-             path:'/admin/goods/update/test1'
+             path:'/home/goods/update/test1'
            },
            {
              title:'三级测试2',
-             path:'/admin/goods/update/test2'
+             path:'/home/goods/update/test2'
            },
          ]
        },
@@ -37,15 +37,15 @@ const Menus=[
    },
    {
      title:"商品管理",
-     path:'/admin/goods',
+     path:'/home/goods',
      children:[
        {
-         title:'商品列表',
-         path:'/admin/goods/list'
+         title:'商品未知',
+         path:'/home/goods/xx'
        },
        {
         title:'未知元素',
-        path:'/admin/goods/xxx'
+        path:'/home/goods/xxx'
       },
      ]
    }
